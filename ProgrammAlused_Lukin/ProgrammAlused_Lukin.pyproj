@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ec4c9bf4-c1f9-4464-afbe-0661b3189995</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>..\..\..\..\Downloads\ProgrammAlused_Lukin.py</StartupFile>
+    <StartupFile>..\ProgrammAlused_Lukin.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
