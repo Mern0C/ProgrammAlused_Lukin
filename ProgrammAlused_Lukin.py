@@ -44,13 +44,6 @@ a =float(input("Esimene arv: "))
 tehe =input("Tehe: ")
 b =float(input("Teine arv: "))
 print(f"{a} {tehe} {b} = {eval(f'{a} {tehe} {b}')}")
-print (" ")
-nimi = "Mari"
-punktid = 87
-print(f"{nimi} sai {punktid} punkti.")
 
-print("Pii väärtus:", pi)
-print("√16 =", sqrt(16))
-print("sin(π/2) =", sin(pi / 2))
-print("sin(30°) =", round(sin(radians(30)), 2))
-print("5! =", factorial(5))
+
+

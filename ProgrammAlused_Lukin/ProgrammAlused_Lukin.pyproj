@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ec4c9bf4-c1f9-4464-afbe-0661b3189995</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>..\ProgrammAlused_Lukin.py</StartupFile>
+    <StartupFile>too_1.1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,7 @@
     <Compile Include="..\ProgrammAlused_Lukin.py">
       <Link>ProgrammAlused_Lukin.py</Link>
     </Compile>
+    <Compile Include="too_1.1.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
