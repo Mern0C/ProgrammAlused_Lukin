@@ -1,6 +1,7 @@
 from math import *
 from calendar import c
 from datetime import *
+from re import A
 tana=date.today()
 print(f"Täna on {tana}")
 # 30/10/2026
@@ -42,3 +43,10 @@ print ("Rong see sõitis tuut tuut tuut,")
 print ("piilupart oli rongijuht.")
 print ("Rattad tegid kill koll koll")
 print ("kill koll koll ja kill koll kill.")
+# Ülesanne 7
+A = float(input("Esimene arv: "))
+B = float(input("Teine arv: "))
+P = 2*(A+B)
+S = A*B
+print(f"ümbermõõt on {P}")
+print(f"Pind on {S}")
