@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ec4c9bf4-c1f9-4464-afbe-0661b3189995</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>teema-2.0 .py</StartupFile>
+    <StartupFile>Ül-2.1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,6 +27,7 @@
     <Compile Include="1.2.py" />
     <Compile Include="too_1.1.py" />
     <Compile Include="teema-2.0 .py" />
+    <Compile Include="Ül-2.1.py" />
     <Compile Include="Ül1.3.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
