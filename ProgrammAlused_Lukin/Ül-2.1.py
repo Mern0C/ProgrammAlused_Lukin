@@ -1,3 +1,4 @@
+#Ülesande 2.1
 nimi  = input("Sisesta nimi: ")
 if nimi.upper()=="JUKU":
     print("lähme Jukuga kinno!")
@@ -25,3 +26,4 @@ if nimi.upper()=="JUKU":
         print("Palun sisesta oma vanus numbrina")
 else:
     print("Täna kinno ei minda.")
+
