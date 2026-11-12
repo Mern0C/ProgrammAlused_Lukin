@@ -25,5 +25,5 @@ if nimi.upper()=="JUKU":
     except ValueError:
         print("Palun sisesta oma vanus numbrina")
 else:
-    print("Täna kinno ei minda.")
+    print("Täna kinno ei minna.")
 
