@@ -1,5 +1,6 @@
 from math import *
 from random import *
+from datetime import date
 # #Ülesande 2.1
 # nimi  = input("Sisesta nimi: ")
 # if nimi.upper()=="JUKU":
@@ -161,18 +162,88 @@ from random import *
 # print("Arve NR: 0000")
 # print("--------------")
 # print(arve)
-# Ülesande 2.9
+# # Ülesande 2.9
+# try:
+#     a = float(input("Sisesta 1.arv: "))
+#     b = float(input("Sisesta 2.arv: "))
+#     c = float(input("Sisesta 3.arv: "))
+#     d = float(input("Sisesta 4.arv: "))
+#     if a>0 and b>0 and c>0 and d>0:
+#         if a==b==c==d:
+#             print("See on ruut")
+#         else:
+#             print("see on nelinurk")
+#     else:
+#          print("Palun sisesta positiivsed arvud.")
+# except:
+#     print("Viga: Palun sisesta numbrili")
+# #Ül 2.10
+# try:
+#     a =float(input("Esimene arv: "))
+#     tehe =input("Tehe: ")
+#     b =float(input("Teine arv: "))
+#     if tehe == "+":
+#         print(f"{a} {tehe} {b} = {eval(f'{a} {tehe} {b}')}")
+#     elif tehe == "-":
+#         print(f"{a} {tehe} {b} = {eval(f'{a} {tehe} {b}')}")
+#     elif tehe == "(*)":
+#         print(f"{a} {tehe} {b} = {eval(f'{a} {tehe} {b}')}")
+#     elif tehe == "/":
+#         print(f"{a} {tehe} {b} = {eval(f'{a} {tehe} {b}')}")
+#     else:
+#         print("sisestatakse tundmatu tehtemärk")
+# except ZeroDivisionError:
+#     print("nulliga jagada ei saa")
+# except ValueError:
+#     print("palun sisesta arv")
+# #Ül 2.11
+# try:
+#     sünniaasta = int(input("sisesta oma sünniaasta: "))
+#     aasta = date.today().year - sünniaasta
+#     print(f"Sel aastal te saate {aasta} aastaseks")
+#     if sünniaasta % 10:
+#         print("head aastapäeva!")
+# except ValueError:
+#     print("palun sisesta oma sünniaasta")
+# #Ül 2.12
+# try:
+#     summa = float(input("Ostusumma: "))
+#     if summa > 10:
+#         print("Allahindlus 20%")
+#         hind = summa * 0.8
+#         print(f"Teie toode maksab {round(hind,2)} eurot")
+#     elif summa <= 10:
+#         print("Allahindlus 10%")
+#         hind = summa * 0.9
+#         print(f"Teie toode maksab {round(hind,2)} eurot")
+#     else:
+#         print("Allahindlust pole")
+# except ValueError:
+#     print("palun sisesta hind")
+# #Ül 2.13
+# try:
+#     sobib=["m","mees"]
+#     sugu = str(input("sisestage oma sugu: "))
+#     if sugu.lower() in sobib:
+#         vanus = int(input("sisestage oma vanus: "))
+#         if 16<=vanus<=18:
+#             print("Sind on meeskonda vastu võetud")
+#         else:
+#             print("Te ei sobib")
+#     else:
+#         print("Te ei sobib")
+# except ValueError:
+#     print("Palun sisesta sobib vastus")
+# #Ül 2.14
 try:
-    a = float(input("Sisesta 1.arv: "))
-    b = float(input("Sisesta 2.arv: "))
-    c = float(input("Sisesta 3.arv: "))
-    d = float(input("Sisesta 4.arv: "))
-    if a>0 and b>0 and c>0 and d>0:
-        if a==b==c==d:
-            print("See on ruut")
-        else:
-            print("see on nelinurk")
+    inimesed=int(input("palju inimesi seal nüüd on?: "))
+    isted=int(input("Sisesta, mitu istekohta bussis on:"))
+    if inimesed > 0 and isted > 0:
+        buss = inimesed // isted
+        print(f"Kõikide kohaletoimetamiseks kulub {buss} bussi.")
+        viimane_buss = inimesed % isted
+        print(f"Viimasel bussil on {viimane_buss} inimest.")
     else:
-         print("Palun sisesta positiivsed arvud.")
-except:
-    print("Viga: Palun sisesta numbrili")
+        print("sisestage positiivsed numbrid")
+except ValueError:
+    print("Palun sisesta sobib vastus")
